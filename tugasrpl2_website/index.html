@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNO Game Guide - Akhwan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🃏 UNO - By Akhwan </div>
+            <ul>
+                <li><a href="#" onclick="showPage('home')" class="nav-link active">Home</a></li>
+                <li><a href="#" onclick="showPage('about')" class="nav-link">About</a></li>
+                <li><a href="#" onclick="showPage('more')" class="nav-link">Game Types</a></li>
+                <li><a href="#" onclick="showPage('contact')" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <div class="hero">
+                <h1>Welcome to UNO Guide</h1>
+                <p>Your complete resource for learning and mastering the classic card game UNO</p>
+                <div class="hero-images">
+                    <img src="assets/skip_card.jpeg" alt="UNO Card">
+                    <img src="assets/uno_logo.jpeg" alt="Draw Two Card">
+                    <img src="assets/reverse_card.jpeg" alt="Reverse Card">
+                </div>
+                <button class="cta-button" onclick="showPage('about')">Learn More</button>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%232c3e50'/%3E%3Ctext x='50' y='55' font-size='40' text-anchor='middle' fill='white'%3E📖%3C/text%3E%3C/svg%3E" alt="Rules">
+                    <h3>📖 Game Rules</h3>
+                    <p>Learn the complete rules of UNO, including how to play, special cards, and winning strategies.</p>
+                </div>
+                <div class="card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23f39c12'/%3E%3Ctext x='50' y='55' font-size='40' text-anchor='middle' fill='white'%3E🎮%3C/text%3E%3C/svg%3E" alt="Game Types">
+                    <h3>🎮 Game Types</h3>
+                    <p>Explore different variations of UNO, from classic to house rules and modern versions.</p>
+                </div>
+                <div class="card">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%2327ae60'/%3E%3Ctext x='50' y='55' font-size='40' text-anchor='middle' fill='white'%3E💡%3C/text%3E%3C/svg%3E" alt="Strategy">
+                    <h3>💡 Strategy Tips</h3>
+                    <p>Master advanced techniques and strategies to become an unbeatable UNO player.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <div class="about-container">
+                <h2>About UNO</h2>
+                
+                <h3>History</h3>
+                <p>UNO is a card game that was created in 1971 by Merle Bradley, an American who taught the game to his family and friends. The game was first marketed by International Games Inc., and by 1972, it was licensed by Mattel. Today, UNO is one of the most popular card games in the world, played by millions of people across all age groups.</p>
+
+                <h3>How to Play</h3>
+                <p>UNO is a fast-paced card game where players take turns playing cards matching either the color or number of the card on top of the discard pile. The goal is to be the first player to get rid of all your cards. Players can play special action cards like Skip, Reverse, and Draw Two to gain advantages. When a player is down to their last card, they must shout "UNO!" or face penalties.</p>
+
+                <h3>Basic Rules</h3>
+                <ul style="margin: 1rem 0 1rem 2rem; color: #666;">
+                    <li>Each player starts with 7 cards</li>
+                    <li>Players take turns playing cards that match the color or number of the discard pile</li>
+                    <li>If unable to play, draw a card from the deck</li>
+                    <li>Special cards (Skip, Reverse, Draw Two) affect gameplay</li>
+                    <li>Wild cards can be played anytime and let you choose the color</li>
+                    <li>First player to eliminate all cards wins the round</li>
+                    <li>Points are calculated based on remaining cards in opponents' hands</li>
+                </ul>
+
+                <h3>Card Values & Types</h3>
+                <p>In scoring, number cards are worth their face value (0-9), Skip and Reverse cards are worth 20 points, Draw Two cards are worth 20 points, Wild cards are worth 50 points, and Wild Draw Four cards are worth 50 points. Each color (Red, Yellow, Blue, Green) appears on number and action cards, making strategic play essential.</p>
+            </div>
+        </div>
+
+        <!-- Game Types Page -->
+        <div id="more" class="page">
+            <div class="game-types-container">
+                <h2 style="color: #2c3e50; margin-bottom: 2rem; font-size: 2.5rem;">UNO Game Types & Variations</h2>
+                
+                <p style="text-align: center; color: #666; margin-bottom: 2rem;">Explore different ways to play UNO with these popular variations and house rules</p>
+
+                <div class="game-types-images">
+                    <div class="game-type-item">
+                        <h4>Classic UNO</h4>
+                        <p>The traditional game with 108 cards featuring numbers, action cards, and Wild cards.</p>
+                    </div>
+
+                    <div class="game-type-item">
+                        <h4>UNO Flip</h4>
+                        <p>Two-sided cards with a flip mechanic that changes gameplay when activated.</p>
+                    </div>
+
+                    <div class="game-type-item">
+                        <h4>UNO Attack</h4>
+                        <p>Features an electronic device that randomly shoots out cards for unpredictable gameplay.</p>
+                    </div>
+
+                    <div class="game-type-item">
+                        <h4>UNO Spin</h4>
+                        <p>A spinner dial creates random effects during gameplay for added excitement.</p>
+                    </div>
+
+                    <div class="game-type-item">
+                        <h4>UNO Stacko</h4>
+                        <p>Combines cards with physical wooden blocks for a dexterity challenge.</p>
+                    </div>
+
+                    <div class="game-type-item">
+                        <h4>House Rules UNO</h4>
+                        <p>Modified versions with custom rules that vary by player preference.</p>
+                    </div>
+                </div>
+
+                <h3 style="color: #2c3e50; margin-top: 3rem; margin-bottom: 1rem;">Beginner's Strategy Guide</h3>
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px;">
+                    <p><strong>1. Play Offensively:</strong> Use action cards strategically to disrupt opponents' plans and prevent them from winning easily.</p>
+                    <p><strong>2. Manage Your Cards:</strong> Try to keep a balanced hand. Get rid of high-value cards early to minimize point loss if you don't win.</p>
+                    <p><strong>3. Watch Your Opponents:</strong> Pay attention to what colors and numbers other players are playing. This helps predict their strategies.</p>
+                    <p><strong>4. Don't Waste Wild Cards:</strong> Save Wild and Wild Draw Four cards for critical moments when you absolutely need them.</p>
+                    <p><strong>5. Remember to Say UNO:</strong> Always shout "UNO!" when you're down to your last card to avoid drawing penalty cards.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="mailto:your.email@example.com" style="color: #f39c12; text-decoration: none;">d.akhwan07@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+1234567890" style="color: #f39c12; text-decoration: none;">089678847278</a></p>
+                    <p>Feel free to reach out with questions about UNO or any feedback about this guide!</p>
+                </div>
+
+                <form id="contactForm" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>   
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-button" style="width: 100%; cursor: pointer;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UNO Game Guide. All rights reserved. | Created with passion for card game enthusiasts</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
