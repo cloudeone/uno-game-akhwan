@@ -114,7 +114,7 @@ main {
 .hero {
     text-align: center;
     padding: 3rem 2rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(58, 5, 25, 0.4);
     margin-bottom: 2rem;
@@ -218,7 +218,7 @@ main {
 
 /* About Page */
 .about-container {
-    background: white;
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     padding: 3rem;
     box-shadow: 0 10px 30px rgba(58, 5, 25, 0.4);
@@ -251,7 +251,7 @@ main {
 
 /* Contact Form */
 .contact-form {
-    background: white;
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     padding: 2rem;
     box-shadow: 0 10px 30px rgba(58, 5, 25, 0.4);
@@ -354,7 +354,7 @@ footer p {
 
 /* Game Types */
 .game-types-container {
-    background: white;
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     padding: 3rem;
     box-shadow: 0 10px 30px rgba(58, 5, 25, 0.4);
@@ -482,6 +482,7 @@ button {
     background: #EF88AD;
 
 }
+
 
 
 
