@@ -8,7 +8,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #3A0519 0%, #670D2F 50%, #A53860 100%);
+    background: url("bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -456,4 +457,5 @@ button {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #EF88AD;
+
 }
