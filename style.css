@@ -315,6 +315,14 @@ main {
     font-size: 1.05rem;
 }
 
+.info-icon {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 8px;
+    filter: brightness(0.95) contrast(1.1);
+}
+
 .contact-info strong {
     color: #A53860;
 }
@@ -474,6 +482,7 @@ button {
     background: #EF88AD;
 
 }
+
 
 
 
